@@ -30,7 +30,7 @@ public class UploadingController {
             File file = new File(uploadingDir + uploadedFile.getOriginalFilename());
             uploadedFile.transferTo(file);
         }
-
+        //Just comment
         return "redirect:/";
     }
 }
